@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "zk",
+      "type": "vn.cal.app.config.ZkProperties",
+      "sourceType": "vn.cal.app.config.ZkProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zk.homepage",
+      "type": "java.lang.String",
+      "sourceType": "vn.cal.app.config.ZkProperties"
+    },
+    {
+      "name": "zk.richlet-filter-mapping",
+      "type": "java.lang.String",
+      "sourceType": "vn.cal.app.config.ZkProperties"
+    },
+    {
+      "name": "zk.servlet3-push-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "vn.cal.app.config.ZkProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "zk.springboot-packaging",
+      "type": "java.lang.String",
+      "sourceType": "vn.cal.app.config.ZkProperties",
+      "defaultValue": "jar"
+    },
+    {
+      "name": "zk.update-uri",
+      "type": "java.lang.String",
+      "sourceType": "vn.cal.app.config.ZkProperties",
+      "defaultValue": "\/zkau"
+    },
+    {
+      "name": "zk.websockets-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "vn.cal.app.config.ZkProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "zk.zul-view-resolver-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "vn.cal.app.config.ZkProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "zk.zul-view-resolver-prefix",
+      "type": "java.lang.String",
+      "sourceType": "vn.cal.app.config.ZkProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "zk.zul-view-resolver-suffix",
+      "type": "java.lang.String",
+      "sourceType": "vn.cal.app.config.ZkProperties",
+      "defaultValue": ".zul"
+    }
+  ],
+  "hints": []
+}
